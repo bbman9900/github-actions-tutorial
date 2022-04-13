@@ -22,3 +22,9 @@ jobs:
         run : ls
       - name: print pwd
         run : pwd
+      - name: clone repo
+        run : git clone https://github.com/bbman9900/github-actions-tutorial
+      - name: Run ls
+        run : ls -al
+      - name: Run pwd
+        run : pwd
